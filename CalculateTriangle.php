@@ -36,13 +36,13 @@ class Triangle {
 
     public function calculateArea(){
         $this->_triArea = (($this->_triBase * $this->_triHeight) / 2);
-        echo("The area of the rectangle is:" .$this->_triArea);
+        echo("The area of the triangle is:" .$this->_triArea);
         echo("<br>");
     }
 
     public function calculatePerimeter(){
         $this->_triPerimeter =  $this->_triBase + (sqrt((pow($this->_triBase , 2)) + (4*(pow($this->_triHeight ,2)))));
-        echo("The perimeter of the rectangle is:" .$this->_triPerimeter);
+        echo("The perimeter of the triangle is:" .$this->_triPerimeter);
         echo("<br>");
     }
 }

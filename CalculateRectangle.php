@@ -23,13 +23,13 @@ class Rectangle {
     }
 
     public function setWidth() {
-        $this->_rectWidth = (int)$_POST["Width"];
+        $this->_rectWidth = $_POST["Width"];
         echo("The width of the rectangle is:".$this->_rectWidth); 
         echo("<br>");   
     }
 
     public function setLength() {
-        $this->_rectLength = (int)$_POST["Length"];
+        $this->_rectLength = $_POST["Length"];
         echo("The length of the rectangle is:".$this->_rectLength);
         echo("<br>");
     }
